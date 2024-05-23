@@ -3,7 +3,8 @@
   
  // menu 
   $('.siteBar-btn').click( function (){ 
-    $('.mobile-menu').toggleClass('siteBar');   
+    $('.mobile-menu').toggleClass('siteBar');
+    $('.menu_overlay').toggleClass('show');
   }); 
 
     
