@@ -7,6 +7,23 @@
 
 /* Normal screen :992px. */
 @media (min-width: 992px) and (max-width: 1200px) {
+    .imgContent p { 
+        font-size: 25px;
+        letter-spacing: 6px;
+    }
+    .top-contents > p {
+        font-size: 22px; 
+    }
+    .artist-blk-wrap { 
+        padding-left: 90px;
+    }
+    .bshaps > img {
+        max-width: 50%;
+    }
+    
+    .artist-blk-wrap img {
+        max-width: 90%;
+    }
 
 
 }
@@ -14,6 +31,35 @@
  
 /* Tablet screen :768px. */
 @media (min-width: 768px) and (max-width: 991px) {
+    .imgContent p { 
+        font-size: 20px;
+        letter-spacing: 6px;
+    }
+    .top-contents > p {
+        font-size: 22px; 
+    }
+    .artist-blk-wrap { 
+        padding-left: 90px;
+    }
+    .bshaps > img {
+        max-width: 50%;
+    }
+    
+    .artist-blk-wrap img {
+        max-width: 90%;
+    }
+    header a.logo { 
+        top: 50px;
+        left: 50px; 
+    }
+    .imgContent { 
+        padding: 100px 0;
+    }
+    .numbs { 
+        padding: 0px 40px; 
+        top: -130px;
+    }
+
 
 
 }
@@ -21,6 +67,87 @@
  
 /* small screen :320px. */
 @media (max-width: 767px) {
+    header a.logo { 
+        top: 30px;
+        left: 50%; 
+        transform: translateX(-50%);
+        max-width: 80px;
+    }
+
+    .imgContent{
+        padding-top: 150px;
+    }
+    .imgContent p { 
+        width: 90%;
+        top: 40%;
+        font-size: 20px;
+        letter-spacing: 2px;
+    }
+    .numbs h1 {
+        font-size: 38px;
+    }
+    .numbs { 
+        padding: 0px 30px; 
+        top: -87px;
+    }
+    .title-contents img { 
+        max-width: 180px;
+        margin-bottom: 10px;
+    }
+    .title-contents h4 {
+        font-size: 22px; 
+    }
+    .title-contents h5 { 
+        font-size: 18px;
+        margin-top: 8px;
+    }
+    .title-contents {
+        margin-bottom: 50px;
+    }
+    .top-contents > p {
+        font-size: 16px;
+        word-spacing: 0px;
+        text-align: left;
+    }
+    .top-contents {
+        margin-bottom: 110px; 
+    }
+    .artists h1 {
+        font-size: 48px; 
+    }
+    .all-artists {
+        flex-wrap: wrap;
+    }
+    
+    .all-artists .artist-blk {
+        width: 100%;
+    }
+    
+    .artist-blk-wrap {
+        padding-left: 50px;
+    }
+    
+    .artist-blk-wrap img {
+        max-height: 100px;
+    }
+
+    .artist-below p {
+        font-size: 17px;
+        letter-spacing: 1px;
+    }
+    footer p { 
+        gap: 6px; 
+        width: 90%;
+        justify-content: center;
+    }
+    footer img {
+        display: block;
+        width: 100%;
+        min-height: 200px;
+        object-fit: cover;
+        object-position: bottom;
+    }
+
 
  
 }
